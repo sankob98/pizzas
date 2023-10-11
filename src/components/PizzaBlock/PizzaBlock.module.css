@@ -1,0 +1,89 @@
+.pizza__block {
+  width: 280px;
+  margin-bottom: 20px;
+}
+.image {
+  width: 200px;
+}
+.title {
+  font-size: 20px;
+  margin-bottom: 18px;
+  color: #000;
+}
+.characteristics {
+  background-color: rgb(237, 234, 230);
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.pizza__types {
+  display: flex;
+  margin-bottom: 8px;
+}
+.pizza__type {
+  flex: 1 1;
+  padding: 8px;
+  border-radius: 8px;
+}
+.sizes {
+  display: flex;
+  justify-content: space-between;
+}
+.size {
+  flex: 1 1;
+  padding: 8px;
+  border-radius: 8px;
+}
+.price__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+.price {
+  font-size: 22px;
+  font-weight: 700;
+}
+.btn {
+  padding: 10px 20px;
+  border: 2px solid rgb(39, 203, 203);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: rgb(39, 203, 203);
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(39, 203, 203);
+  color: #fff;
+}
+.btn:hover .count {
+  background-color: #fff;
+  color: rgb(39, 203, 203);
+}
+.plus {
+  font-size: 23px;
+  margin-right: 5px;
+}
+.active {
+  background-color: #fff;
+}
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(39, 203, 203);
+  color: #fff;
+  margin-left: 5px;
+}
+@media only screen and (max-width: 410px) {
+  .price__block {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

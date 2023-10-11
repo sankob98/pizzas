@@ -1,0 +1,23 @@
+img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+.title {
+  font-size: 28px;
+}
+.price {
+  font-weight: 700;
+  font-size: 23px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid rgb(39, 203, 203);
+  border-radius: 30px;
+  background-color: #fff;
+  color: rgb(39, 203, 203);
+  font-size: 16px;
+  cursor: pointer;
+  margin: 25px 0;
+}

@@ -1,0 +1,26 @@
+.menu {
+  position: relative;
+}
+.menu__title {
+  margin-right: 8px;
+}
+.list {
+  position: absolute;
+  right: 0;
+  list-style: none;
+  margin-top: 7px;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 8px 0;
+}
+.list li {
+  cursor: pointer;
+  padding: 8px 20px;
+}
+.list li:hover {
+  background-color: rgba(39, 203, 203, 0.3);
+}
+.selected {
+  color: rgb(39, 203, 203);
+  cursor: pointer;
+}

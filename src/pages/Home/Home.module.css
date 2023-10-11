@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.pizzas__wraper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 410px) {
+  .content {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}

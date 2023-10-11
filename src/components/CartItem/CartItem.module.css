@@ -1,0 +1,95 @@
+.pizza_icon {
+  width: 80px;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+  width: 40%;
+}
+.info__text p {
+  opacity: 0.5;
+}
+.countBlock {
+  font-size: 22px;
+  font-weight: 600;
+}
+.count,
+.countBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.count span {
+  width: 100%;
+}
+.count,
+.price {
+  width: 150px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  border: 2px solid rgb(39, 203, 203);
+  color: rgb(39, 203, 203);
+  border-radius: 50%;
+  background-color: #fff;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(39, 203, 203);
+}
+.btn:hover svg path {
+  fill: #fff;
+}
+.btn:disabled {
+  border-color: #ddd;
+  background-color: #fff;
+}
+.btn:disabled svg path {
+  fill: #ddd;
+}
+.delete {
+  display: flex;
+  align-items: center;
+}
+.btn__remove {
+  border-color: #ddd;
+}
+.btn__remove svg {
+  transform: rotate(45deg);
+}
+.btn__remove:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  .block {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .info {
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .countBlock {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}

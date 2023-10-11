@@ -1,0 +1,12 @@
+.block {
+  height: 70vh;
+  padding: 50px;
+}
+.title {
+  font-size: 48px;
+  color: #232323;
+}
+.text {
+  font-size: 22px;
+  color: #232323;
+}

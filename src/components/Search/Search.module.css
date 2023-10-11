@@ -1,0 +1,37 @@
+.search {
+  position: relative;
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.3;
+}
+.search__icon {
+  width: 20px;
+  left: 7px;
+}
+.clear__icon {
+  width: 17px;
+  right: 7px;
+}
+.clear__icon:hover {
+  opacity: 1;
+}
+.input {
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 7px 5px 7px 35px;
+  border-radius: 5px;
+  width: 400px;
+}
+@media only screen and (max-width: 768px) {
+  .input {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .input {
+    width: 250px;
+  }
+}
