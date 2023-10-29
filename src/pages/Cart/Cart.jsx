@@ -36,7 +36,7 @@ const Cart = () => {
         </div>
       </div>
       <div className={style.footer}>
-        <Link to="/" className={cn(style.btn, style.btn__back, 'btn')}>
+        <Link to="/pizzas" className={cn(style.btn, style.btn__back, 'btn')}>
           Назад
         </Link>
         <div className={cn(style.btn, style.btn__pay, 'btn')}>Оплатить сейчас</div>

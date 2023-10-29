@@ -25,7 +25,7 @@ const Pizza = () => {
           <img className={style.img} src={pizza.imageUrl} alt="pizza" />
           <h2 className={style.title}>{pizza.title}</h2>
           <p className={style.price}>{pizza.price} ₽</p>
-          <Link className={cn(style.btn, 'btn')} to="/">
+          <Link className={cn(style.btn, 'btn')} to="/pizzas">
             Назад
           </Link>
         </>

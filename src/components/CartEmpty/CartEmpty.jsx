@@ -11,7 +11,7 @@ const CartEmpty = () => {
         Воспользуйтесь поиском на главной странице, чтобы найти нужную пиццу
       </p>
       <img className={style.img} src={cart} alt="cart" />
-      <Link to="/" className={style.link}>
+      <Link to="/pizzas" className={style.link}>
         Вернуться на главную
       </Link>
     </div>
