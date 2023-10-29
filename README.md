@@ -1,8 +1,6 @@
 # Интернет магазин пицц
 сайт с сортировкой, с фильтрацией по категориям, с корзиной, с добавлением и удалением товаров из корзины. Написан с использованием React, Redux Toolkit, axios.
 
-ссылка на деплой: https://react-pizza-eta-orpin.vercel.app/
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
